@@ -106,11 +106,8 @@ nav {
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
-}
-nav  {
   list-style-type: none;
   display: flex;
-
 }
 nav a {
   padding:1em;
@@ -243,3 +240,7 @@ button {
      between the labels and their text fields */
   margin-left: 0.5em;
 }
+
+
+/* --------------------------------------------------------------------------------------------*/
+
