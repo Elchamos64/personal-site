@@ -138,3 +138,252 @@ footer p a:hover{
 footer .social img{
     padding-top: 15px;
 }
+
+
+
+
+/*-----------------------  Shared Rooms website ------------------------*/
+
+#shared-msg{
+    margin-top: 20px;
+    background-color: #F4F1DE;
+    color:#475B5C;
+    font-family: 'Rubik', 'Raleway';
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating-grid {
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 80px 1fr 80px 1fr 80px 1fr 80px 1fr;
+}
+
+/*-----------------------  Logde ------------------------*/
+.lodge-tittle{
+    color:#475B5C;
+    background-color: #F4F1DE;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding:20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.rating-lodge{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lodge-spect{
+    align-self: center;
+    height:70%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-left: 10px;
+    background-color: #F4F1DE;
+    color:#475B5C;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+#lodge {
+    width:100%;
+}
+
+.button-box-lodge {
+    text-align:center;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*-----------------------  Bunk House ------------------------*/
+.bunk-tittle{
+    color:#475B5C;
+    background-color: #F4F1DE;
+    grid-column: 2/4;
+    grid-row: 3/4;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding:20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.rating-bunk{
+    grid-column: 3/4;
+    grid-row:4/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bunk-spect{
+    align-self: center;
+    height:70%;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin-right: 10px;
+    background-color: #F4F1DE;
+    color:#475B5C;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#bunkhouse{
+    width:100%;
+    margin-bottom: 10px;
+}
+
+.button-box-bunk {
+    text-align:center;
+    grid-column: 3/4;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*-----------------------  University View  ------------------------*/
+.university-tittle{
+    color:#475B5C;
+    background-color: #F4F1DE;
+    grid-column: 1/3;
+    grid-row: 5/6;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding:20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.rating-university{
+    grid-column: 1/2;
+    grid-row: 6/7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.university-spect{
+    align-self: center;
+    height:70%;
+    grid-column:2/3;
+    grid-row:6/7;
+    margin-right: 10px;
+    background-color: #F4F1DE;
+    color:#475B5C;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#university{
+    width:100%;
+    margin-bottom: 10px;
+}
+
+.button-box-university {
+    text-align:center;
+    grid-column: 1/2;
+    grid-row: 6/7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*-----------------------  Navoo  ------------------------*/
+.navoo-tittle{
+    color:#475B5C;
+    background-color: #F4F1DE;
+    grid-column: 2/4;
+    grid-row: 7/8;
+    margin-bottom: 10px;
+    padding:20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.rating-navoo{
+    grid-column: 3/4;
+    grid-row:8/9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navoo-spect{
+    align-self: center;
+    height:70%;
+    grid-column:2/3;
+    grid-row:8/9;
+    margin-right: 10px;
+    background-color: #F4F1DE;
+    color:#475B5C;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#navoo{
+    width:100%;
+    margin-bottom: 10px;
+}
+
+.button-box-navoo {
+    text-align:center;
+    grid-column: 3/4;
+    grid-row: 8/9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*-----------------------  END ------------------------*/
+
+
+.about-msg{
+    background-color:#F4F1DE;
+    color:#475B5C; 
+    width:70%;
+    justify-self: right;
+    line-height: 1.5em;
+    padding:35px;
+    grid-column: 4/6;
+    grid-row: 1/4;
+    box-shadow: 5px 5px 10px black;
+    margin: 20px;
+}
+
+.rate{
+    background-color: #F4F1DE;
+    text-decoration: none;
+    color: #475B5C;
+    font-size: 18px;
+    padding: 5px 30px;
+    margin:10;
+    border-radius: 5px;
+    transition: linear .5s;
+    font-family: 'Raleway', 'Rubik';
+}
+
+.rate:hover{
+    background-color: #475B5C;
+    color:#F4F1DE;
+}
