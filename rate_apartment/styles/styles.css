@@ -386,3 +386,249 @@ footer .social img{
     background-color: #475B5C;
     color:#F4F1DE;
 }
+
+
+/*-----------------------  Private Rooms website ------------------------*/
+
+#shared-msg{
+    margin-top: 20px;
+    background-color: #F4F1DE;
+    color:#475B5C;
+    font-family: 'Rubik', 'Raleway';
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating-grid {
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 80px 1fr 80px 1fr 80px 1fr 80px 1fr;
+}
+
+/*-----------------------  Milano Flats ------------------------*/
+.milano-tittle{
+    color:#475B5C;
+    background-color: #F4F1DE;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding:20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.rating-milano{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.milano-spect{
+    align-self: center;
+    height:70%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-left: 10px;
+    background-color: #F4F1DE;
+    color:#475B5C;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+#milano {
+    width:100%;
+}
+
+.button-box-milano {
+    text-align:center;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*----------------------- American Avenue ------------------------*/
+.american-tittle{
+    color:#475B5C;
+    background-color: #F4F1DE;
+    grid-column: 2/4;
+    grid-row: 3/4;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding:20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.rating-american{
+    grid-column: 3/4;
+    grid-row:4/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.american-spect{
+    align-self: center;
+    height:70%;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin-right: 10px;
+    background-color: #F4F1DE;
+    color:#475B5C;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#american{
+    width:100%;
+    margin-bottom: 10px;
+}
+
+.button-box-american {
+    text-align:center;
+    grid-column: 3/4;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*-----------------------  Shelbourne ------------------------*/
+.shelbourne-tittle{
+    color:#475B5C;
+    background-color: #F4F1DE;
+    grid-column: 1/3;
+    grid-row: 5/6;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding:20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.rating-shelbourne{
+    grid-column: 1/2;
+    grid-row: 6/7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shelbourne-spect{
+    align-self: center;
+    height:70%;
+    grid-column:2/3;
+    grid-row:6/7;
+    margin-right: 10px;
+    background-color: #F4F1DE;
+    color:#475B5C;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#shelbourne{
+    width:100%;
+    margin-bottom: 10px;
+}
+
+.button-box-shelbourne {
+    text-align:center;
+    grid-column: 1/2;
+    grid-row: 6/7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*-----------------------  brighton  ------------------------*/
+.brighton-tittle{
+    color:#475B5C;
+    background-color: #F4F1DE;
+    grid-column: 2/4;
+    grid-row: 7/8;
+    margin-bottom: 10px;
+    padding:20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.rating-brighton{
+    grid-column: 3/4;
+    grid-row:8/9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brighton-spect{
+    align-self: center;
+    height:70%;
+    grid-column:2/3;
+    grid-row:8/9;
+    margin-right: 10px;
+    background-color: #F4F1DE;
+    color:#475B5C;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#brighton{
+    width:100%;
+    margin-bottom: 10px;
+}
+
+.button-box-brighton {
+    text-align:center;
+    grid-column: 3/4;
+    grid-row: 8/9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*-----------------------  END ------------------------*/
+
+
+.about-msg{
+    background-color:#F4F1DE;
+    color:#475B5C; 
+    width:70%;
+    justify-self: right;
+    line-height: 1.5em;
+    padding:35px;
+    grid-column: 4/6;
+    grid-row: 1/4;
+    box-shadow: 5px 5px 10px black;
+    margin: 20px;
+}
+
+.rate{
+    background-color: #F4F1DE;
+    text-decoration: none;
+    color: #475B5C;
+    font-size: 18px;
+    padding: 5px 30px;
+    border-radius: 5px;
+    transition: linear .5s;
+    font-family: 'Raleway', 'Rubik';
+}
+
+.rate:hover{
+    background-color: #475B5C;
+    color:#F4F1DE;
+}
