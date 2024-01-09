@@ -64,6 +64,10 @@ body{
     width: 70%;
 }
 
+img {
+    text-align: center;
+}
+
 #top-box{
     grid-column: 1/4;
     grid-row: 1/3;
